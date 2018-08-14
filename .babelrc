@@ -1,0 +1,20 @@
+{
+    "plugins": [
+        "transform-vue-jsx",
+        [
+            "transform-runtime",
+            {
+                "polyfill": false
+            }
+        ]
+    ],
+    "presets": [
+        "env",
+        [
+            "es2015",
+            {
+                "modules": false
+            }
+        ]
+    ]
+}
